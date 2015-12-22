@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-table;
+}
+
+body {
+  background: #EEEEEE url("bg.gif") repeat-y center top;
+  text-align: center;
+  font-size: 85%;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+a {
+  color: #FF9999;
+}
+
+#container {
+  margin: 0 auto;
+  width: 550px;
+  background: #FFFFFF;
+  text-align: left;
+}
+
+#header {
+  width: 550px;
+}
+
+#header h1 {
+  padding: 10px 0;
+  width: 550px;
+  text-align: center;
+  font-size: 197%;
+  font-weight: bold;
+}
+
+#header h1 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#header h2 {
+  padding: 5px 5px;
+  margin-bottom: 10px;
+  width: 540px;
+  border-top: #CCCCCC 1px solid;
+  border-bottom: #CCCCCC 1px solid;
+  text-align: center;
+  font-size: 100%;
+}
+
+#main {
+  width: 550px;
+  background: #FFFFFF;
+}
+
+#calc {
+  width: 550px;
+  text-align: center;
+}
+
+#calcForm {
+  margin: 15px auto 0 auto;
+  width: 430px;
+  text-align: left;
+}
+
+#calcForm p {
+  padding: 15px;
+  text-align: center;
+}
+
+#calcForm p input {
+  background: #CCCCCC;
+  border: #999999 1px solid;
+  font-size: 107%;
+}
+
+#resMsg {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #FFFF99;
+}
+
+#resMsg #result {
+  background: #FFFF99;
+  font-size: 144%;
+  font-weight: bold;
+}
+
+#errMsg {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #FFFF99;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+h3 {
+  padding: 5px 10px;
+  width: 530px;
+  background: #FFCCCC;
+}
+
+blockquote {
+  border: #FFCCCC 1px solid;
+  margin: 1em 1em;
+  padding: 0.5em;
+}
+
+blockquote p {
+  margin: 0.5em;
+  padding: 0;
+}
+
+cite {
+  display: block;
+  text-align: right;
+}
+
+cite a {
+  font-weight: normal;
+  font-style: italic;
+}
+
+#footer {
+  padding: 10px 0;
+  width: 550px;
+  background: #FFFFFF;
+  font-size: 77%;
+  text-align: center;
+}

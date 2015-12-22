@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="二人の誕生日の真ん中を計算。時間も指定できます。" />
+<meta name="keywords"    content="誕生日,記念日,こどものおもちゃ" />
+<title>真ん中バースデー計算機</title>
+<link rel="stylesheet" href="/half-birthday/static/style.css" type="text/css" />
+</head>
+<body>
+<!--container-->
+<div id="container">
+
+	<!--header-->
+	<div id="header">
+		<h1><a href="<?= HOME_URL ?>">真ん中バースデー計算機</a></h1>
+		<h2>誕生日の真ん中も記念日にしちゃおう！</h2>
+	</div>
+	<!--//header-->
+
+	<!--main-->
+	<div id="main">
+		<div id="calc">
+			<form method="POST" action="#" id="calcForm" name="calcForm">
+				<select name="yf"></select> 年
+				<select name="mf"></select> 月
+				<select name="df"></select> 日
+				<select name="hf"></select> 時
+				<select name="if"></select> 分から<br />
+				<select name="yt"></select> 年
+				<select name="mt"></select> 月
+				<select name="dt"></select> 日
+				<select name="ht"></select> 時
+				<select name="it"></select> 分の間を…<br />
+				<p><input type="submit" value="計算！"></p>
+			</form>
+			<p id="resMsg"></p>
+		</div>
+		<div class="faq">
+			<h3>真ん中バースデーってなに？</h3>
+			<div class="answer">
+				<blockquote title="真ん中バースデーとは - はてなキーワード（2008/09/18）" cite="http://d.hatena.ne.jp/keyword/%BF%BF%A4%F3%C3%E6%A5%D0%A1%BC%A5%B9%A5%C7%A1%BC?kid=93370">
+					<p>友達、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%ce%f8%bf%cd" target="_blank">恋人</a>同士などでお互いの<a class="keyword" href="http://d.hatena.ne.jp/keyword/%c3%c2%c0%b8%c6%fc" target="_blank">誕生日</a>の中間にあたる日を祝うこと。それぞれの<a class="keyword" href="http://d.hatena.ne.jp/keyword/%c3%c2%c0%b8%c6%fc" target="_blank">誕生日</a>に加えて、<a class="keyword" href="http://d.hatena.ne.jp/keyword/%b5%ad%c7%b0%c6%fc" target="_blank">記念日</a>が増えてお得な感じ。</p>
+					<p>友達以上<a class="keyword" href="http://d.hatena.ne.jp/keyword/%ce%f8%bf%cd" target="_blank">恋人</a>未満の相手に「真ん中<a class="keyword" href="http://d.hatena.ne.jp/keyword/%a5%d0%a1%bc%a5%b9%a5%c7%a1%bc" target="_blank">バースデー</a>しよっ！」と誘うと、さりげない<a class="keyword" href="http://d.hatena.ne.jp/keyword/%c3%c2%c0%b8%c6%fc" target="_blank">誕生日</a>アピールにもなる。</p>
+					<cite><a href="http://d.hatena.ne.jp/keyword/%BF%BF%A4%F3%C3%E6%A5%D0%A1%BC%A5%B9%A5%C7%A1%BC?kid=93370" target="_blank">真ん中バースデーとは - はてなキーワード</a></cite>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+	<!--//main-->
+
+	<!--footer-->
+	<div id="footer">
+		<p>&copy; 2008 <a href="http://drillbits.jp/" target="_blank">drillbits</a> All Rights Reserved.</p>
+	</div>
+	<!--//footer-->
+
+</div>
+<!--//container-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5542563-2");
+pageTracker._trackPageview();
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="/half-birthday/static/app.js"></script>
+</body>
+</html>
